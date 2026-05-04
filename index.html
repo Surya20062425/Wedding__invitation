@@ -654,47 +654,6 @@
             color: var(--warm-gray);
         }
 
-        /* ─── MUSIC ─── */
-        .music-btn {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(201, 169, 110, 0.2);
-            color: var(--gold);
-            font-size: 1rem;
-            cursor: pointer;
-            z-index: 100;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-        }
-
-        .music-btn:hover {
-            background: var(--gold);
-            color: white;
-            border-color: var(--gold);
-            transform: scale(1.1);
-        }
-
-        .music-btn.playing {
-            animation: gentleSpin 6s linear infinite;
-        }
-
-        @keyframes gentleSpin {
-            from {
-                transform: rotate(0deg);
-            }
-            to {
-                transform: rotate(360deg);
-            }
-        }
 
         /* ─── REVEAL ─── */
         .reveal {
